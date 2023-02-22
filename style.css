@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3FD2C7;
+}
+  
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00458B;
+}
+  
+.text {
+    display: block;
+    text-shadow: 1px 1px 5px #a3c1e0,
+    1px 1px 5px #efefef,
+    2px 2px 10px #ededed,
+    3px 3px 15px #ffffff;
+    font-weight: 800;
+    font-size: 1.5em;
+    font-family: verdana;
+    margin-bottom: 30px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #99DDFF;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #bbe8ff,
+    1px 1px 5px #0d2938,
+    2px 2px 10px #0d2938,
+    3px 3px 15px #0d2938,
+    4px 4px 20px #0d2938;
+    color: #00458B;
+}
+
+#from-currency {
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 7px;
+    margin:10px 0;
+    border:none;
+    box-shadow: 2px 5px 25px rgba(7, 2, 2, 0.5);
+    outline: none;
+    border-radius: 10px;
+    background-color: #00458B;
+    color: white;
+}
+
+#to-currency {
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 7px;
+    margin:10px 0;
+    border:none;
+    box-shadow: 2px 5px 25px rgba(7, 2, 2, 0.5);
+    outline: none;
+    border-radius: 10px;
+    background-color: #00458B;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 1.2;
+}
+  
+input[type="number"] {
+    width: 80%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #00458B;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    background-color: #00458B;
+    color: #fff;
+    padding: 15px 30px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    font-size: 1.1em;
+}
+  
+button:hover {
+    background-color: #0171e1;
+    top: -5px;
+    transition: top 0.4s ease-in-out;
+}
+  
+#result {
+    margin: 10px 0 15px 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+  
