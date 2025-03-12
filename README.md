@@ -19,7 +19,7 @@ A simple and user-friendly **Currency Converter** web application built with **H
 - **JavaScript** – Logic for currency conversion and interactivity.
 
 ## 📸 Screenshot
-![Currency Converter](image.png)
+![Currency Converter](Desktop.png)
 
 ## 🚀 How to Use
 1. **Select the currency** you want to convert from.
